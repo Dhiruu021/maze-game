@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Game</title>
+    <link rel="stylesheet" href="maze.css">
+</head>
+<body>
+    <div id="maze-container">
+        <div id="maze"></div>
+
+        
+        <div class="toflex">
+           <div id="controls">
+                <button id="upButton">↑</button>
+                <div class="bothButtons">
+                    <button id="leftButton">←</button>
+                    <button id="rightButton">→</button>
+                </div>
+                <button id="downButton">↓</button>
+            </div>
+            <button id="startButton">Start Game</button>
+        </div> 
+        <div id="congratulationsMessage" class="hidden">
+            <h2>Congratulations! You reached the exit!</h2>
+            
+            
+        </div>
+    </div>
+    <script src="maze.js"></script>
+</body>
+</html> 
